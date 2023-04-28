@@ -234,19 +234,19 @@
 
 }
 
-@media screen and (max-width: 300px) {
+ @media screen and (max-width: 380px) {
   .gridcont {
-    max-width: 250px;
+    max-width: 240px;
   }
   .img {
-    max-width: 18rem;
+    max-width: 15rem;
   }
   .formtxt{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .input {
-    min-width: 13rem;
-    height: 1.1rem;
+    min-width: 12rem;
+    height: 1rem;
   }
 
 }

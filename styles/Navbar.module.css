@@ -12,7 +12,7 @@
   margin-right: auto;
   font-size: 1.5rem;
   margin-top: 2.5rem;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .img {
@@ -59,57 +59,74 @@ cursor: pointer;
     gap: 1rem;
     max-width: 500px;
   }
-  .logo{
+  .logo {
     margin-right: auto;
   }
-  .list{
+  .list {
     margin-left: 5rem;
     gap: 2rem;
     margin-right: auto;
-
   }
-  .logo .img{
+  .logo .img {
     width: 4rem;
   }
 }
 
-
-
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   .container {
     max-width: 400px;
   }
 
-  .list{
+  .list {
     gap: 1rem;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.2rem;
   }
-  .logo{
+  .logo {
     font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
   .container {
     max-width: 300px;
   }
 
-  .list{
-    gap: .9rem;
+  .list {
+    gap: 0.9rem;
 
-font-size: 1rem;
+    font-size: 1rem;
   }
 }
 
-@media screen and (max-width:300px) {
+
+@media screen and (max-width: 380px) {
   .container {
     max-width: 250px;
+    font-size: 1.2rem;
   }
 
-  .list{
-    gap: .8rem;
+  .list {
+    gap: 0.8rem;
+    font-size: 0.9rem;
+  }
+}
 
-font-size: .9rem;
+@media screen and (max-width: 290px) {
+  .container {
+    max-width: 230px;
+    font-size: 1rem;
+  }
+
+.logo{
+  font-size: 1.2rem;
+}
+
+  .list {
+    gap: 0.5rem;
+    font-size: 0.8rem;
   }
 }
