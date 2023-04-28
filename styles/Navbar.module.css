@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+.container {
+  display: flex;
+  max-width: 1300px;
+  align-items: center;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  font-family: "NeueHaasGrotTextRound", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+cursor: pointer;
+}
+
+.img {
+  width: 5rem;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1376px) {
+  .container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .container {
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+  }
+  .logo{
+    margin-right: auto;
+  }
+  .list{
+    margin-left: 5rem;
+    gap: 2rem;
+    margin-right: auto;
+
+  }
+  .logo .img{
+    width: 4rem;
+  }
+}
+
+
+
+@media screen and (max-width:600px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .list{
+    gap: 1rem;
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+  .logo{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .list{
+    gap: .9rem;
+
+font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .container {
+    max-width: 250px;
+  }
+
+  .list{
+    gap: .8rem;
+
+font-size: .9rem;
+  }
+}
