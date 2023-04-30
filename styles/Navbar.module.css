@@ -106,9 +106,10 @@
 @media screen and (max-width: 380px) {
   .container {
     max-width: 250px;
-    font-size: 1.2rem;
   }
-
+.name{
+  font-size:1.2rem;
+}
   .list {
     gap: 0.8rem;
     font-size: 0.9rem;
