@@ -81,10 +81,6 @@ export const Editor = () => {
           <div className={styles.name}>
             <img src='coding-folder.png' className={styles.img} />
             <div>Sharecode.com</div>
-            {productInfo?.code && <div className={styles.names}>
-              <div className={styles.redcont}> Created by <div className={styles.redname}>{name ? name : "Unknown"}</div></div>
-              <div className={styles.red}>Expires in 24hrs</div>
-            </div>}
           </div>
           <div className={styles.b}>
             {!productInfo?.code && <button onClick={runlink} className={styles.btt}><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

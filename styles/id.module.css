@@ -161,6 +161,68 @@
   .btt{
     width: 8rem;
     text-align: center;
+    font-size: 1rem;
+  }
+  .btt svg{
+    display: none;
+  }
+}
+
+@media screen and (max-width:444px) {
+  .con1 {
+    font-size: 1.5rem;
+    gap: 1rem;
+  }
+  .btt{
+    width: 7rem;
+    text-align: center;
     font-size: .9rem;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .con1 {
+    font-size: 1.3rem;
+    gap: 1rem;
+  }
+  .btt{
+    width: 6rem;
+    text-align: center;
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width:344px) {
+  .con1 {
+    font-size: 1.3rem;
+    gap: 1rem;
+  }
+  .btt{
+    width: 5rem;
+    text-align: center;
+    font-size: .7rem;
+  }
+}
+@media screen and (max-width:290px) {
+  .con1 {
+    font-size: 1.3rem;
+    gap: 1rem;
+  }
+  .btt{
+    width: 4rem;
+    text-align: center;
+    font-size: .6rem;
+  }
+}
+
+@media screen and (max-width:244px) {
+  .con1 {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .btt{
+    width: 3rem;
+    text-align: center;
+    font-size: .5rem;
   }
 }
