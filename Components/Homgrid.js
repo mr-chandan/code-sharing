@@ -34,7 +34,7 @@ export const Homgrid = () => {
           </button>
         </div>
       </div>
-      <div className={Styles.imgbox}>< img src='code.png' className={Styles.img} /></div>
+      <div className={Styles.imgbox}>< img src='code.png' className={Styles.img} alt="codeimg" /></div>
     </div>
   )
 }
